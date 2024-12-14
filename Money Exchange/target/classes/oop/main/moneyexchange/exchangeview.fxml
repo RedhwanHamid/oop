@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="userId" prefHeight="565.0" prefWidth="656.0" style="-fx-background-color: #F9C0AB;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.main.moneyexchange.ExchangeViewController">
+   <children>
+      <Button layoutX="28.0" layoutY="35.0" mnemonicParsing="false" onAction="#backButtonOnClicked" prefHeight="26.0" prefWidth="50.0" text="←" />
+      <Label layoutX="87.0" layoutY="118.0" prefHeight="32.0" prefWidth="533.0" text="Global currency conversions &amp; money transfers" textFill="#1f4529">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Label layoutX="27.0" layoutY="239.0" prefHeight="32.0" prefWidth="50.0" style="-fx-background-color: #7BD3EA;" text="Today ">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <DatePicker fx:id="dateDatePicker" layoutX="109.0" layoutY="239.0" />
+      <Button layoutX="23.0" layoutY="295.0" mnemonicParsing="false" onAction="#searchButtonOnClicked" prefHeight="50.0" prefWidth="141.0" text="Amount  $ 1 .00">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button layoutX="210.0" layoutY="294.0" mnemonicParsing="false" onAction="#searchButtonOnClicked" prefHeight="50.0" prefWidth="150.0" text="From usd-Us Dollar">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="379.0" layoutY="295.0" prefHeight="1.0" prefWidth="20.0" style="-fx-background-color: #7BD3EA;" text="←">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="379.0" layoutY="320.0" prefHeight="22.0" prefWidth="20.0" style="-fx-background-color: #7BD3EA;" text="→">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="440.0" layoutY="294.0" mnemonicParsing="false" onAction="#searchButtonOnClicked" prefHeight="50.0" prefWidth="202.0" text="To BDT -Bangladeshi Taka ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="479.0" layoutY="403.0" mnemonicParsing="false" onAction="#searchButtonOnClicked" prefHeight="50.0" prefWidth="141.0" style="-fx-background-color: #CA7373;" text="Convert">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="684.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.main.moneyexchange.MainviewController">
+   <children>
+      <Label layoutX="234.0" layoutY="20.0" prefHeight="50.0" prefWidth="224.0" style="-fx-background-color: #0A5EB0;" text="    Main view" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="120.0" layoutY="174.0" mnemonicParsing="false" onAction="#agentButtonOnclike" prefHeight="50.0" prefWidth="149.0" style="-fx-background-color: #0B8494;" text="Agent Dashboard " textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button layoutX="429.0" layoutY="174.0" mnemonicParsing="false" onAction="#auditButtonOnclike" prefHeight="50.0" prefWidth="142.0" style="-fx-background-color: #0B8494;" text="Audit Dashboard" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
